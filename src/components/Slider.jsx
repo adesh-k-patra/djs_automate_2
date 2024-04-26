@@ -50,10 +50,13 @@ export default function Slider({
             <ReactSlider
               className="flex justify-center w-full cursor-pointer"
               trackClassName="w-1/6 h-full rounded-full bg-black"
-              thumbClassName={`cursor-pointer opacity-0 h-20px w-20px`}
+              thumbClassName={`cursor-pointer h-20px w-20px`}
               orientation="vertical"
               value={100 - slider}
               onChange={(newValue) => {
+                setSlider(100 - newValue)
+              }}
+              onTouchMove={(newValue) => {
                 setSlider(100 - newValue)
               }}
               renderTrack={(props, state) => {
