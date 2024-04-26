@@ -1,0 +1,54 @@
+.animation {
+  transform: translate(0%);
+  transition: transform 0.5s linear;
+}
+.arrow {
+  box-shadow: 0px 0px 3px 3px #22292d, inset 0px -5px 3px 2px black,
+    0px 10px 5px 5px black;
+}
+.button-click,
+.button-normal:hover {
+  fill: white;
+  filter: drop-shadow(0 0 0.5px white) drop-shadow(0 0 1px white)
+    drop-shadow(0 0 1.5px white) drop-shadow(0 0 2px white)
+    drop-shadow(0 0 12px white);
+}
+.glow-light {
+  filter: drop-shadow(0 0 0.5px white) drop-shadow(0 0 1px white)
+    drop-shadow(0 0 15px white);
+}
+.slider {
+  box-shadow: 0px 0px 1px 2px #22292d, inset 0px -5px 3px 2px black,
+    0px 40px 10px 15px black;
+}
+.button-normal,
+.slider-icon-down {
+  fill: gray;
+}
+.slider-level-down {
+  background: gray;
+}
+.slider-icon-up {
+  fill: white;
+  filter: drop-shadow(0 0 0.5px white) drop-shadow(0 0 1px white)
+    drop-shadow(0 0 15px white);
+}
+.slider-level-up {
+  background: white;
+  filter: drop-shadow(0 0 0.5px white) drop-shadow(0 0 1px white)
+    drop-shadow(0 0 1.5px white) drop-shadow(0 0 2px white)
+    drop-shadow(0 0 12px white);
+}
+.white-fill {
+  fill: white;
+}
+.white-shadow-large {
+  box-shadow: inset -13px 60px 100px -70px white, inset 0px 2px 15px -3px white,
+    0px 0px 227px 52px rgba(0, 0, 0, 0.81);
+  /* 0px 10px 10px -2px black, 0px 2px 100px 0px black; */
+}
+.white-shadow-small {
+  box-shadow: inset -10px 60px 100px -80px white, inset 0px 2px 15px -3px white,
+    0px 0px 227px 52px rgba(0, 0, 0, 0.81);
+  /* 0px 10px 15px -2px black, 0px 2px 100px 0px black; */
+}
