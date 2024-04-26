@@ -21,14 +21,14 @@ function App() {
         setValueSelect(i)
         for (let j = i * 12; j <= i * 12 + 12; j++) {
           setValueSlider(j)
-          await delay(5)
+          await delay(2)
         }
       }
       for (let i = 8; i >= 0; i--) {
         setValueSelect(i)
         for (let j = i * 12; j >= i * 12 - 12; j--) {
           setValueSlider(j)
-          await delay(7)
+          await delay(5)
         }
       }
       setValueSlider(0)

@@ -1,8 +1,18 @@
-# React + Vite
+#Toggle Switch and Slider App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##About
+This application is built with React.js, Javascript and Tailwind CSS. Additionally, the entire application has been Dockerized.
 
-Currently, two official plugins are available:
+##Screenshots
+![](/public/2.png)
+![](/public/3.png)
+![](/public/4.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Installation
+Clone the repository.
+Navigate to the project folder.
+Start Docker container docker-compose up
+Open your web browser and visit http://localhost:5173/
+
+##Live Site
+Check out the live site here : https://djs-automate-2.vercel.app/
